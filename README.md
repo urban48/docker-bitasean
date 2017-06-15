@@ -16,7 +16,7 @@ docker-BitAsean        [![Docker Stars](https://img.shields.io/docker/stars/urba
 
 #### copy wallet file to the container
 
-    docker cp /path/to/wallet.wallet:/ bitasean
+    docker cp /path/to/wallet.wallet bitasean:/wallet.wallet bitasean
 
 #### run the wallet
 
