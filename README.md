@@ -10,12 +10,6 @@ docker-BitAsean        [![Docker Stars](https://img.shields.io/docker/stars/urba
 # Running the Daemon
     docker run -dit --name bitasean -v $HOME/.BitAsean:/root/.BitAsean -p 40609:40609 --memory=1g --memory-swap=1g urban48/bitasean
 
-# Checking the container status
-    docker logs bitasean
-
-    curl -X POST http://localhost:40609/json_rpc -d '{"jsonrpc":"2.0","id":"test","method":"get_info"}' -H "Content-Type: application/json" -H "Accept:application/json"
-
-
 # Using the wallet
 
 ## Docker exec (running the wallet)
