@@ -8,7 +8,7 @@ docker-BitAsean        [![Docker Stars](https://img.shields.io/docker/stars/urba
     docker pull urban48/docker-bitasean
 
 # Running the Daemon
-    docker run -dit --rm=true --name bitasean -v $HOME/.BitAsean:/root/.BitAsean -p 40609:40609 --memory=1g --memory-swap=1g urban48/docker-bitasean
+    docker run -dit --name bitasean -v $HOME/.BitAsean:/root/.BitAsean -p 40609:40609 --memory=1g --memory-swap=1g urban48/docker-bitasean
 
 # Using the wallet
 
